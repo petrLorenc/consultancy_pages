@@ -1268,8 +1268,207 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Starter Section Section
+# Custom Page Styles
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+
+/* Hero Section Custom Styles */
+.hero-cta {
+  margin-top: 40px;
+}
+
+.hero-cta .btn {
+  background: linear-gradient(135deg, #0d6efd, #0056b3);
+  border: none;
+  padding: 15px 40px;
+  font-size: 1.3em;
+  border-radius: 50px;
+  box-shadow: 0 8px 25px rgba(13, 110, 253, 0.3);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.hero-cta .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 35px rgba(13, 110, 253, 0.4);
+  background: linear-gradient(135deg, #0056b3, #004494);
+}
+
+.hero-cta .btn:active {
+  transform: translateY(-1px);
+}
+
+.hero-cta-description {
+  color: #e0e0e0;
+  margin-top: 15px;
+  font-size: 1.1em;
+}
+
+@media (max-width: 768px) {
+  .hero-cta .btn {
+    font-size: 1.1em;
+    padding: 12px 30px;
+  }
+}
+
+/* Pricing Section Styles */
+.pricing-section {
+  background: #f8f9fa;
+}
+
+.pricing-content {
+  background: white;
+  padding: 50px;
+  border-radius: 15px;
+  border: 2px solid #e9ecef;
+}
+
+.pricing-header {
+  margin-bottom: 50px;
+}
+
+.pricing-header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.pricing-icon {
+  font-size: 3em;
+  color: #0d6efd;
+}
+
+.pricing-amount {
+  font-size: 3.5em;
+  font-weight: bold;
+  color: #0d6efd;
+  line-height: 1;
+}
+
+.pricing-unit {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.pricing-title {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.pricing-subtitle {
+  color: #666;
+  font-size: 1.1em;
+}
+
+.pricing-comparison {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  height: 100%;
+  margin-bottom: 30px;
+}
+
+.pricing-comparison-title {
+  color: #0d6efd;
+  margin-bottom: 20px;
+}
+
+.pricing-comparison-list {
+  list-style: none;
+  padding: 0;
+}
+
+.pricing-comparison-item {
+  margin-bottom: 15px;
+}
+
+.pricing-benefits {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  height: 100%;
+  margin-bottom: 30px;
+}
+
+.pricing-benefits-title {
+  color: #0d6efd;
+  margin-bottom: 20px;
+}
+
+.pricing-benefits-list {
+  color: #333;
+  list-style: none;
+  padding: 0;
+}
+
+.pricing-benefits-item {
+  margin-bottom: 15px;
+}
+
+.pricing-discounts {
+  background: linear-gradient(135deg, #149ddd, #0d6efd);
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.pricing-discounts-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.pricing-discount-item {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.pricing-discount-price {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.pricing-discount-description {
+  font-size: 0.9em;
+}
+
+.pricing-cta-button {
+  background: #0d6efd;
+  color: white;
+  padding: 15px 40px;
+  font-size: 1.2em;
+  border-radius: 25px;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.pricing-cta-description {
+  color: #666;
+  font-size: 0.9em;
+}
+
+/* Contact Form Styles */
+.contact-form-info {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.quick-actions {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.quick-actions-title {
+  margin-bottom: 10px;
+  color: #0d6efd;
+}
+
+#experience li{
+  padding: 5px 0;
 }
