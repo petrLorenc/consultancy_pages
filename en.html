@@ -38,6 +38,16 @@
   ======================================================== -->
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V6R6NK5808"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V6R6NK5808');
+</script>
+
 <body class="index-page">
 
   <header id="header" class="header dark-background d-flex flex-column">
@@ -502,20 +512,20 @@
 
       // Quick form fillers
       window.fillConsultationForm = function() {
-        document.getElementById('subject-field').value = 'Programming consultation - €40/hour';
-        document.getElementById('message-field').value = `Hello Petr,\n\nI would like to schedule consultations in programming.\n\n🔧 My current experience:\n\n\n💡 My project/problem:\n\n\n📅 Preferred schedule:\n\n\n💬 Preferred format (online/in-person):\n\n\nThank you for your response!`;
+        document.getElementById('subject-field').value = 'Programming consultation';
+        document.getElementById('message-field').value = `Hello Petr,\n\nI would like to schedule consultations in programming.\n\n🔧 My current experience:\n\n\n💡 My project/problem:\n\n\n📅 Preferred schedule:\n\n\nThank you for your response!`;
         document.getElementById('message-field').focus();
       };
 
       window.fillCourseForm = function() {
-        document.getElementById('subject-field').value = 'Python course - interest in tutoring';
-        document.getElementById('message-field').value = `Hello Petr,\n\nI'm interested in Python courses.\n\n📊 My current level:\n☐ Complete beginner\n☐ Know programming basics\n☐ Know another language\n☐ Know Python partially\n\n🎯 What I want to learn:\n\n\n📅 Preferred time/frequency:\n\n\n💬 Preferred format:\n☐ Online (Google Meet/Zoom)\n☐ In-person in Prague\n\nThank you!`;
+        document.getElementById('subject-field').value = 'Python course';
+        document.getElementById('message-field').value = `Hello Petr,\n\nI'm interested in Python courses.\n\n📊 My current level:\n☐ Complete beginner\n☐ Know programming basics\n☐ Know another language\n☐ Know Python partially\n\n🎯 What I want to learn:\n\n\n📅 Preferred time/frequency:\n\n\nThank you!`;
         document.getElementById('message-field').focus();
       };
 
       window.fillAIForm = function() {
-        document.getElementById('subject-field').value = 'GenAI/ML mentoring - consultation';
-        document.getElementById('message-field').value = `Hello Petr,\n\nI'm interested in mentoring in GenAI/machine learning.\n\n🔬 My experience with AI/ML:\n\n\n🎯 What I want to achieve:\n☐ Learn to work with LLMs\n☐ Model fine-tuning\n☐ Prompt engineering\n☐ ML pipeline in production\n☐ AWS for ML\n☐ Other:\n\n💼 Project type/usage:\n\n\n📅 Expected mentoring duration:\n\n\nThank you for your time!`;
+        document.getElementById('subject-field').value = 'GenAI/ML mentoring ';
+        document.getElementById('message-field').value = `Hello Petr,\n\nI'm interested in mentoring in GenAI/machine learning.\n\n🔬 My experience with AI/ML:\n\n\n🎯 What I want to achieve:\n☐ Learn to work with LLMs\n☐ Model fine-tuning\n☐ Prompt engineering\n☐ ML pipeline in production\n☐ AWS for ML\n☐ Other:\n\n💼 Project type/usage:\n\n\n📅 Preferred time:\n\n\nThank you for your time!`;
         document.getElementById('message-field').focus();
       };
 

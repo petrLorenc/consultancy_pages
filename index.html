@@ -38,6 +38,16 @@
   ======================================================== -->
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V6R6NK5808"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V6R6NK5808');
+</script>
+
 <body class="index-page">
 
   <header id="header" class="header dark-background d-flex flex-column">
@@ -483,7 +493,7 @@
           <div class="quick-actions">
             <h6 class="quick-actions-title">🚀 Rychlé šablony zpráv:</h6>
             <button type="button" class="btn btn-outline-primary btn-sm me-2 mb-2" onclick="fillConsultationForm()">
-              💻 Programovací konzultace
+              💻 SW konzultace
             </button>
             <button type="button" class="btn btn-outline-secondary btn-sm me-2 mb-2" onclick="fillCourseForm()">
               🐍 Python kurz
@@ -502,20 +512,20 @@
 
       // Quick form fillers
       window.fillConsultationForm = function() {
-        document.getElementById('subject-field').value = 'Programovací konzultace - 1000 Kč/hod';
-        document.getElementById('message-field').value = `Dobrý den Petře,\n\nrád bych si domluvil konzultace v oblasti programování.\n\n🔧 Mé současné zkušenosti:\n\n\n💡 Můj projekt/problém:\n\n\n📅 Preferovaný termín:\n\n\n💬 Preferovaná forma (online/osobně):\n\n\nDěkuji za odpověď!`;
+        document.getElementById('subject-field').value = 'SW konzultace';
+        document.getElementById('message-field').value = `Dobrý den Petře,\n\nrád bych si domluvil konzultace v oblasti programování.\n\n🔧 Mé současné zkušenosti:\n\n\n💡 Můj projekt/problém:\n\n\n📅 Preferovaný termín:\n\n\nDěkuji za odpověď!`;
         document.getElementById('message-field').focus();
       };
 
       window.fillCourseForm = function() {
-        document.getElementById('subject-field').value = 'Python kurz - zájem o výuku';
-        document.getElementById('message-field').value = `Dobrý den Petře,\n\nmám zájem o Python kurz.\n\n📊 Moje současná úroveň:\n☐ Úplný začátečník\n☐ Základy programování znám\n☐ Umím jiný jazyk\n☐ Python znám částečně\n\n🎯 Co bych se chtěl naučit:\n\n\n📅 Preferovaný čas/frekvence:\n\n\n💬 Preferovaná forma:\n☐ Online (Google Meet/Zoom)\n☐ Osobně v Praze\n\nDěkuji!`;
+        document.getElementById('subject-field').value = 'Python kurz';
+        document.getElementById('message-field').value = `Dobrý den Petře,\n\nmám zájem o Python kurz.\n\n📊 Moje současná úroveň:\n☐ Úplný začátečník\n☐ Základy programování znám\n☐ Umím jiný jazyk\n☐ Python znám částečně\n\n🎯 Co bych se chtěl naučit:\n\n\n📅 Preferovaný čas/frekvence:\n\nDěkuji!`;
         document.getElementById('message-field').focus();
       };
 
       window.fillAIForm = function() {
-        document.getElementById('subject-field').value = 'GenAI/ML mentoring - konzultace';
-        document.getElementById('message-field').value = `Dobrý den Petře,\n\nmám zájem o mentoring v oblasti GenAI/strojového učení.\n\n🔬 Moje zkušenosti s AI/ML:\n\n\n🎯 Co bych chtěl dosáhnout:\n☐ Naučit se pracovat s LLMs\n☐ Fine-tuning modelů\n☐ Prompt engineering\n☐ ML pipeline v produkci\n☐ AWS pro ML\n☐ Jiné:\n\n💼 Typ projektu/využití:\n\n\n📅 Představa o délce mentoringu:\n\n\nDěkuji za váš čas!`;
+        document.getElementById('subject-field').value = 'GenAI mentoring';
+        document.getElementById('message-field').value = `Dobrý den Petře,\n\nmám zájem o mentoring v oblasti GenAI/strojového učení.\n\n🔬 Moje zkušenosti s AI/ML:\n\n\n🎯 Co bych chtěl dosáhnout:\n☐ Naučit se pracovat s LLMs\n☐ Fine-tuning modelů\n☐ Prompt engineering\n☐ ML pipeline v produkci\n☐ AWS pro ML\n☐ Jiné:\n\n💼 Typ projektu/využití:\n\n\n📅 Preferovaný čas:\n\n\nDěkuji za váš čas!`;
         document.getElementById('message-field').focus();
       };
 
