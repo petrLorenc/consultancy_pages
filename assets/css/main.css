@@ -1472,3 +1472,10 @@ section,
 #experience li{
   padding: 5px 0;
 }
+
+#header .language-switcher {
+  position: absolute;
+  bottom: 15px;
+  width: 90%;
+  text-align: center;
+}
