@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Petr Lorenc - Programming and AI Consulting</title>
   <meta
-    content="Individual Python courses and GenAI consulting with a friendly approach. Practical mentoring from an experienced expert with 10+ years of experience in top companies."
+    content="Individual Python courses and consulting with a friendly approach. Practical mentoring from an experienced expert with 10+ years of experience in top companies."
     name="description">
   <meta content="python, programming, courses, consulting, AI, machine learning, mentoring, pair programming"
     name="keywords">
@@ -121,7 +121,7 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <h2>Petr Lorenc</h2>
         <p>I can help you with: <span class="typed"
-            data-typed-items="Python - from basics to advanced techniques, GenAI and its cloud deployment, Software development, Practical projects, Machine learning">practical
+            data-typed-items="Python - basics to advanced, Software development, Practical projects, Mentoring">practical
             programming</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
             class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
 
@@ -200,35 +200,6 @@
             </div>
           </div>
           <!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon flex-shrink-0"><i class="bi bi-robot"></i></div>
-            <div>
-              <h4 class="title">🤖 GenAI & Large Language Models</h4>
-              <p class="description">Practical work with ChatGPT API, OpenAI, model fine-tuning, prompt engineering, RAG
-                systems. I'll show you how to effectively deploy AI in your projects and automate work processes. From
-                basics to advanced techniques – always with practical examples.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon flex-shrink-0"><i class="bi bi-cloud"></i></div>
-            <div>
-              <h4 class="title">☁️ Efficient cloud solutions</h4>
-              <p class="description">Cloud deployment using Lambda, S3, Sagemaker, EC2, CI/CD pipelines. Cost and
-                performance optimization. Practical help with migrating applications to AWS.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon flex-shrink-0"><i class="bi bi-graph-up"></i></div>
-            <div>
-              <h4 class="title">📈 Machine Learning & Data Science</h4>
-              <p class="description">Practical projects with real data from start to production deployment. Development
-                in PyTorch and scikit-learn focusing on classification, regression, clustering and other techniques.
-                I'll teach you how to solve real business problems using ML.</p>
-            </div>
-          </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
             <div class="icon flex-shrink-0"><i class="bi bi-people"></i></div>
@@ -353,19 +324,13 @@
             <div class="row">
               <div class="col-md-4 text-center">
                 <div class="pricing-discount-item">
-                  <div class="pricing-discount-price">€36/hour</div>
-                  <div class="pricing-discount-description">5+ hours</div>
+                  <div class="pricing-discount-price">€25/hour</div>
+                  <div class="pricing-discount-description">4+ hours</div>
                 </div>
               </div>
               <div class="col-md-4 text-center">
                 <div class="pricing-discount-item">
-                  <div class="pricing-discount-price">€32/hour</div>
-                  <div class="pricing-discount-description">10+ hours</div>
-                </div>
-              </div>
-              <div class="col-md-4 text-center">
-                <div class="pricing-discount-item">
-                  <div class="pricing-discount-price">€28/hour</div>
+                  <div class="pricing-discount-price">By agreement</div>
                   <div class="pricing-discount-description">Long-term collaboration</div>
                 </div>
               </div>
@@ -564,9 +529,6 @@
             <button type="button" class="btn btn-outline-secondary btn-sm me-2 mb-2" onclick="fillCourseForm()">
               🐍 Python course
             </button>
-            <button type="button" class="btn btn-outline-success btn-sm mb-2" onclick="fillAIForm()">
-              🤖 GenAI mentoring
-            </button>
           </div>
         `;
 
@@ -586,12 +548,6 @@
       window.fillCourseForm = function () {
         document.getElementById('subject-field').value = 'Python course';
         document.getElementById('message-field').value = `Hello Petr,\n\nI'm interested in Python courses.\n\n📊 My current level:\n☐ Complete beginner\n☐ Know programming basics\n☐ Know another language\n☐ Know Python partially\n\n🎯 What I want to learn:\n\n\n📅 Preferred time/frequency:\n\n\nThank you!`;
-        document.getElementById('message-field').focus();
-      };
-
-      window.fillAIForm = function () {
-        document.getElementById('subject-field').value = 'GenAI/ML mentoring ';
-        document.getElementById('message-field').value = `Hello Petr,\n\nI'm interested in mentoring in GenAI/machine learning.\n\n🔬 My experience with AI/ML:\n\n\n🎯 What I want to achieve:\n☐ Learn to work with LLMs\n☐ Model fine-tuning\n☐ Prompt engineering\n☐ ML pipeline in production\n☐ AWS for ML\n☐ Other:\n\n💼 Project type/usage:\n\n\n📅 Preferred time:\n\n\nThank you for your time!`;
         document.getElementById('message-field').focus();
       };
 
